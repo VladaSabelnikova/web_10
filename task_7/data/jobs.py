@@ -53,5 +53,3 @@ class Jobs(SqlAlchemyBase):
     )
 
     user = orm.relation('User')
-
-    department = orm.relation('Department')
